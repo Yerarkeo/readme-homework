@@ -96,12 +96,11 @@ npm test      # Run test cases
 
 # License
 This project is licened under the MT License. See the LICENSE file for more details.
-
-```diff
-+ Let me know:
-- if your project uses MongoDB or MySQL (so I can adjust that part),
-- if you want to include screenshots or setup diagrams,
-- or if you'd like this saved as a downloadable `.md` file.
+```html
+ <span style="color: green;">Let me know:
+<span style="color: blue;">- if your project uses MongoDB or MySQL (so I can adjust that part),
+<span style="color: blue;">- if you want to include screenshots or setup diagrams,
+<span style="color: blue;">- or if you'd like this saved as a downloadable `.md` file.
 ```
 
 
