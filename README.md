@@ -2,8 +2,8 @@
 [![app](https://img.shields.io/badge/School_management_system-Administator-greed)](https://getbootstrap.com/)
 
 A Node.js-based application designed to simplify and automate school adminstrative tasks such as managing student, teachers, classes, attendance, and more.
+--- 
 
-​--- 
 # Table of contents
 - [Features](#feature)
 - [Tech stack](#techstack)
@@ -44,6 +44,69 @@ Clone thproject and install depandencies:
 ```bash
 git clone https://github.com/your-username/school-management-system.git 
 ```
+```bush
+cd school-management-system
+```
+```bush
+npm install
+```
+# Screenshot
+
+![Dashbord](dashboard.png)
+
+# Usage
+
+To run the sever in development mode:
+```bush
+npm run dev
+```
+To start the sever nomally:
+```bush
+npm start
+```
+Access the API at
+```bush
+http://localhost:3000/api
+```
+# API Endpoints
+| Method | Endpoints | Description |
+|----|-----|----|
+| POSTt | /api/auth/login | Login to system| 
+| GET | /api/students | Login to system| 
+| POST | /api/students | Login to system| 
+| PUT | /api/studetns/:id | Login to system| 
+| DELETE | /api/students:id| Login to system| 
+
+# Environment Variables
+
+Create a ``` .env``` file in the root directory aand add:
+``` 
+PORT=3000
+DB_URI=your_database_connection_string
+JWT_SECRET=your_jwt_secret_key
+```
+# Scripts
+``` 
+npm start #Start the sever
+    npm run dev #Start with nodemon
+    npm test # Run test cases
+```
+# Contributors
+<a href="https://github.com/Yerarkeo" target="_blank"> <img src="https://github.com/Yerarkeo.png?size=100" width="80px" style="border-radius: 50%;" alt="Yerarkeo"/> </a>
+
+# License
+This project is licened under the MT License. See the LICENSE file for more details.
+```
+---
++Let me know:
+-if your project uses MongoDB or MYSQL ( so I can adjust that part),
+- if you want to include screenshots or setup digrams,
+- or id you'd like this as a downloadable `.md` file.
+```
+
+
+
+
 
 
 
