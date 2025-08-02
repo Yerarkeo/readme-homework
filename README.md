@@ -44,10 +44,10 @@ Clone thproject and install depandencies:
 ```bash
 git clone https://github.com/your-username/school-management-system.git 
 ```
-```bush
+```bash
 cd school-management-system
 ```
-```bush
+```bash
 npm install
 ```
 # Screenshot
@@ -57,15 +57,15 @@ npm install
 # Usage
 
 To run the sever in development mode:
-```bush
+```
 npm run dev
 ```
 To start the sever nomally:
-```bush
+```
 npm start
 ```
 Access the API at
-```bush
+```
 http://localhost:3000/api
 ```
 # API Endpoints
@@ -80,17 +80,18 @@ http://localhost:3000/api
 # Environment Variables
 
 Create a ``` .env``` file in the root directory aand add:
-``` 
+```env
 PORT=3000
 DB_URI=your_database_connection_string
 JWT_SECRET=your_jwt_secret_key
 ```
 # Scripts
-``` 
-npm start #Start the sever
-    npm run dev #Start with nodemon
-    npm test # Run test cases
+```bush
+npm start     # Start the server
+npm run dev   # Start with nodemon
+npm test      # Run test cases
 ```
+
 # Contributors
 <a href="https://github.com/Yerarkeo" target="_blank"> <img src="https://github.com/Yerarkeo.png?size=100" width="80px" style="border-radius: 50%;" alt="Yerarkeo"/> </a>
 
